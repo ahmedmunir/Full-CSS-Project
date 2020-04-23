@@ -1,0 +1,201 @@
+body {
+    margin: 0px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    min-height: calc(100vh - 118px);
+}
+/* styling backdropwindow with actions of modals buttons */
+.backDropWindow {
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+/* styling mobile-nav-bar button*/
+.toggle-nav-bar {
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.toggle-bar{
+    display: block;
+    width: 20px;
+    height:4px;
+    background-color: black;
+    margin: 2px 0;
+}
+
+/* styling mobile-nav-bar */
+.nav_bar_mobile_items {
+    position: fixed;
+    background-color: white;
+    width: 20%;
+    height: 100vh;
+    top: 0;
+    z-index: 30;
+    padding-top: 10%;
+    display:none;
+}
+
+.nav_bar_mobile_items .nav_bar_item{
+    display: block;
+    width: 80%;
+    margin: 10% auto;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+}
+.nav_bar_mobile_items .nav_bar_item > a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+/* Main header styling */
+.main-header {
+    background-color: rgb(26, 150, 10);
+    padding: 2px;
+    position:fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* div inside main header styling */
+.nav_bar_1st {
+    display: inline-block;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.nav_bar_1st > a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.nav_bar_1st > a > img {
+    width:50px;
+    vertical-align: middle;
+}
+/* nav bar inside main header styling */
+.nav_bar_items {
+    width: calc(100% - 120px);
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_bar_item {
+    display: inline-block;
+    list-style: none;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.nav_bar_item > a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    font-weight: bold;
+
+}
+.nav_bar_item > a:hover {
+    color: white;
+    cursor: grab;
+    border-bottom: white 2px solid;
+}
+.nav_bar_last_item_button > a{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.nav_bar_last_item_button > a:hover {
+    color: black;
+    border-bottom: black 2px solid;
+}
+/* styling footer */
+.footer {
+    background-color: black;
+    margin-top: 40px;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.footer-link {
+    display:inline-block;
+    margin-left: 20%;
+    margin-right: 22%;
+}
+.footer-link > a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link a:hover,
+.footer-link a:active {
+    color: grey;
+    cursor: pointer;
+}
+
+.open {
+    display: block !important;
+}
+
+@media (max-width: 1024px) {
+    .main-header {
+        height: 57.438;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav_bar_items {
+        width: calc(100% - 90px);
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav_bar_item {
+        padding: 2px;
+        width: 30%;
+        vertical-align: middle;
+    }
+    .nav_bar_last_item_button > a {
+        padding: 2px;
+    }
+    .footer-link {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .footer {
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 577px) {
+    .nav_bar_mobile_items .nav_bar_item {
+        font-size: 12px;
+        text-align: center;
+    }
+}

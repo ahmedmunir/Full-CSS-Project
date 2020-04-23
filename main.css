@@ -1,0 +1,188 @@
+
+.modal {
+    position:fixed;
+    top: 25%;
+    left: 30%;
+    right: 30%;
+    z-index: 200;
+    border: 0.5px solid grey;
+    padding: 5px 30px;
+    background: white;
+    font-family: 'Gurajada', serif;
+    font-size: 1.7rem;
+    cursor: pointer;
+    display:none;
+}
+
+.modal__header {
+    margin: 0.7rem;
+    text-align: center;
+    line-height: 1;
+} 
+
+.modal__actions {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.modal_action{
+    text-decoration: none;
+    text-align: center;
+    border: 0.5px solid grey;
+    width: 25%;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 3px;
+    display: inline-block;
+    margin: 2%;
+}
+
+a.modal_action {
+    background: green;
+    color: white;
+}
+a.modal_action:hover {
+    background: #66E909;
+}
+
+button.modal_action {
+    background: #FF9E00;
+    color: white;
+}
+button.modal_action:hover {
+    background: #FFEB54;
+}
+
+/* styling section of background image */
+p.backgroundImage{
+    margin: 0px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    height: 33vh;
+    background: url("images/freedom-image.jpeg") no-repeat;
+    background-size: cover;
+    background-position:left 0% top 10%; 
+    background-clip: content-box;
+    margin-top: 58px;
+
+}
+
+/* styling section of plans */
+#plans {
+    width: 80%;
+    margin: auto;
+}
+.plansTitle {
+    font-weight: bold;
+    color: rgb(26, 150, 10);
+    text-align: center;
+}
+
+.planContainer {
+    display: inline-block;
+    width: 29%;
+    margin-left:1%;
+    padding: 10px;
+    vertical-align: middle;
+    background-color: rgb(210, 250, 210);
+    font-family:'Gurajada', serif;
+    font-size: 23px;
+    text-align: center;
+    line-height: 1;
+}
+
+
+.FRPRclass h2{
+    color: grey;
+}
+
+.recommended {
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(82, 73, 73);
+}
+
+.recommended h1 {
+    color: green;
+    border-radius: 5px;
+    background-color:white;
+    padding: 10px;
+    box-shadow: 2px 2px 1px 1px rgb(82, 73, 73);
+}
+
+
+.recommended .recommendedPrice {
+    color: black;
+}
+
+article ul, article h1, article h2, article h3{
+    padding-left:0;
+    list-style: none;
+    margin: 15px;
+}
+
+article div > button{
+    border: rgb(2, 63, 2) solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(2, 63, 2);
+    color:white;
+    box-shadow: 2px 2px 1px 1px black;
+    font-family:'Gurajada', serif;
+    font-size: 20px;
+}
+article div > button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(2, 63, 2);
+}
+article div > button:focus{
+    outline: none;
+}
+
+/* styling features section */
+#features-section {
+    background-color: rgba(211, 46, 46, 0.849);
+    margin-top:30px;
+    padding: 25px;
+}
+#features-section > .plansTitle{
+    color: white;
+}
+#features-section ul li {
+    display:inline-block;
+    width: 33%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.feature-image{
+    border: white 1px solid;
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    margin: auto;
+    background-color: plum;
+}
+
+@media (min-width: 640px) {
+    p.backgroundImage {
+        font-size: 35px;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 867px) {
+    .planContainer,
+    #features-section ul li {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+

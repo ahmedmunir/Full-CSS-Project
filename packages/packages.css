@@ -1,0 +1,94 @@
+.plans-background {
+    background: url(../images/plans-image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    filter: grayscale(50%);
+}
+
+main {
+    margin-top: 52px;
+}
+/* styling plans sections */
+section{
+    width: 80%;
+    border: 3px solid green;
+    padding: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+}
+
+section a{
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+}
+
+section:hover {
+    border: 3px solid orangered;
+    cursor:pointer;
+}
+
+#plus-plan{
+    background-color: rgb(179, 240, 179);
+    position: relative;
+}
+
+.plus-badge {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#free-plan{
+    background-color: rgb(220, 250, 220);
+    float: right;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+#premium-plan{
+    background-color: rgb(5, 58, 5);
+}
+
+#premium-plan a > h1{
+    color: white;
+}
+
+.link-paragraph{
+    border: 1px solid rgb(1, 126, 39);
+    padding: 5px;
+    background-color: white;
+    color: rgb(1, 126, 39);
+}
+
+.link-h2{
+    color: grey;
+}
+
+.link-h1{
+    color: black;
+}
+
+@media (max-width: 450px) {
+    section {
+        padding: 5px;
+    }
+
+    .plus-badge {
+        right: 2px;
+        padding: 5px;
+    }
+}
