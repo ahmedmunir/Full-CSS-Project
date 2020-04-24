@@ -1,0 +1,100 @@
+/* Add margin to header to display it */
+.form-container {
+    margin-top: 58px;
+}
+
+/* styling form header */
+.form-header{
+    color: 	#FF6347;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 3%;
+}
+
+/* styling form */
+.form-body{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 2rem;
+}
+
+label,
+select, 
+span, 
+button, 
+input:not(.checkbox){
+    display: block;
+    width: 40%;
+    margin: 2% auto;
+}
+
+input:not(.checkbox):invalid{
+    border-style: solid;
+    border-color: #FF6347;
+    background: #FFB6C1;
+    box-sizing: border-box;
+    padding: 5px;
+    font: inherit;
+}
+
+input:not(.checkbox):focus,
+input:not(.checkbox):valid,
+#gender {
+    outline: none;
+    border-color: #32CD32;
+    background: #7FFF00	;
+    box-sizing: border-box;
+    padding: 5px;
+    font: inherit;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px #FF6347 solid;
+    background-color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    vertical-align: middle;
+    appearance: none;
+}
+
+.checkbox:checked {
+    border-color: #32CD32;
+    background: #7FFF00	;
+}
+
+/* styling sign up button */
+button{
+    border: rgb(2, 63, 2) solid 1px;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: rgb(2, 63, 2);
+    color:white;
+    box-shadow: 2px 2px 1px 1px black;
+    font-family:'Gurajada', serif;
+    font-size: 2rem;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(2, 63, 2);
+}
+button:focus{
+    outline: none;
+}
+
+@media (max-width: 450px) {
+    label,
+    select, 
+    span, 
+    button, 
+    input:not(.checkbox){
+        width: 90%;
+        margin:2% auto;
+    } 
+    button {
+        margin-top: 1%;
+        padding: 1px;
+    }
+}
