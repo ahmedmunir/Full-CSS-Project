@@ -75,8 +75,10 @@ p.backgroundImage{
 
 /* styling section of plans */
 #plans {
-    width: 80%;
+    width: 95%;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 .plansTitle {
     font-weight: bold;
@@ -85,11 +87,8 @@ p.backgroundImage{
 }
 
 .planContainer {
-    display: inline-block;
-    width: 29%;
-    margin-left:1%;
+    width: 25%;
     padding: 10px;
-    vertical-align: middle;
     background-color: rgb(210, 250, 210);
     font-family:'Gurajada', serif;
     font-size: 23px;
@@ -155,13 +154,18 @@ article div > button:focus{
 #features-section > .plansTitle{
     color: white;
 }
+
+#features-section ul {
+    display: flex;
+}
+
 #features-section ul li {
-    display:inline-block;
     width: 33%;
     text-align: center;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    list-style: none;
 }
 
 .feature-image{
@@ -181,11 +185,23 @@ article div > button:focus{
 }
 
 @media (max-width: 867px) {
-    .planContainer,
+    #features-section ul {
+        flex-direction: column;
+    }
     #features-section ul li {
-        display: block;
         width: 80%;
         margin: 10px auto;
     }
+
+    #plans {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .planContainer {
+        width: 70%;
+        margin-bottom: 3%;
+    }
+
 }
 
