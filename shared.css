@@ -223,9 +223,3 @@ main {
     }
 }
 
-@media (min-width: 577px) {
-    .nav_bar_mobile_items,
-    .backDropWindow {
-        display: none;
-    }
-}

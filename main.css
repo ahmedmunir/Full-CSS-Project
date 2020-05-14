@@ -177,6 +177,10 @@ article div > button:focus{
     background-color: plum;
 }
 
+.open {
+    display: block;
+}
+
 @media (min-width: 640px) {
     p.backgroundImage {
         font-size: 35px;
@@ -201,6 +205,16 @@ article div > button:focus{
     .planContainer {
         width: 70%;
         margin-bottom: 3%;
+    }
+    .modal {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+    .modal_action {
+        display: block;
+        width: 50%;
+        margin: 0.5rem auto;
+        font-size: 1.2rem;
     }
 
 }
