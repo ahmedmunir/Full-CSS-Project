@@ -89,7 +89,7 @@ main {
     display: grid;
     grid-template-columns: 10% 90%;
     align-items: center;
-    
+    z-index: 10;
 }
 
 
