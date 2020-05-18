@@ -4,6 +4,8 @@
 
 .modal {
     position:fixed;
+    width: 40%;
+    height: 200px;
     top: 25%;
     left: 30%;
     right: 30%;
@@ -15,8 +17,8 @@
     font-size: 1.7rem;
     cursor: pointer;
     opacity: 0;
-    transform: translateY(-3rem);
-    transition: opacity 0.5s, transform 0.5s linear;
+    transform: translateY(-3rem) !important;
+    transition: opacity 0.5s, transform 0.5s linear !important;
 }
 
 .modal__header {
@@ -76,11 +78,7 @@ p.backgroundImage{
 }
 
 /* styling section of plans */
-#plans {
-    display: grid;
-    grid-template-columns: repeat(3, 25%);
-    justify-content: space-around;
-}
+
 .plansTitle {
     font-weight: bold;
     color: rgb(26, 150, 10);
@@ -97,13 +95,7 @@ p.backgroundImage{
     text-align: center;
     line-height: 1;
     transform: perspective(1000px) translateZ(-100px);
-    transition: transform 0.5s ease-in;
 }
-
-.planContainer:hover {
-    transform: perspective(1000px) translateZ(100px);
-}
-
 
 .FRPRclass h2{
     color: grey;
@@ -192,6 +184,16 @@ article div > button:focus{
     width: 70%;
     display: inline-block;
     margin-top:15%;
+}
+
+/* VPN table style */
+.vpn-servers {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 2%;
 }
 
 .open {
