@@ -1,4 +1,4 @@
-#This is Website about Hosting company consists of 4 links:
+# This is Website about Hosting company consists of 4 links:
 main page (index.html) & customers page & packages page & start-hosting page.
 Each link has a dedicated folder contain HTML & CSS file for this page.
 
