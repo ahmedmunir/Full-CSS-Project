@@ -1,9 +1,23 @@
-# This is Website about Hosting company consists of 4 links:
-main page (index.html) & customers page & packages page & start-hosting page.
-Each link has a dedicated folder contain HTML & CSS file for this page.
+# Web hosting Company Template:
+This is [CS50's web programming with python and Javascript](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript) project 0 - 2018 version.  
 
-images folder include all photos i used at project.
+# Overview:
+The template has 4 main pages:  
+- main page (index.html).
+- customers page.
+- packages page.
+- start-hosting page. 
+ 
+# Technologies used:
+- HTML
+- HTML5
+- CSS
+- CSS3
+- Javascript
+- SASS
+- Bootstrap
+- Website is responsive for both Desktop and mobile.
 
-i used SASS just with shared.css file.
-
-i used bootstrap at index.html file.
+# Website Link:
+Enjoy:  
+https://ahmedmunir.github.io/Full-CSS-Project/index.html

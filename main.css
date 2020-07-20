@@ -97,6 +97,11 @@ p.backgroundImage{
     transform: perspective(1000px) translateZ(-100px);
 }
 
+.planContainer ul {
+    font-size: 30px;
+}
+
+
 .FRPRclass h2{
     color: grey;
 }
@@ -134,7 +139,7 @@ article div > button{
     color:white;
     box-shadow: 2px 2px 1px 1px black;
     font-family:'Gurajada', serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 article div > button:hover{
     cursor: pointer;
