@@ -17,7 +17,3 @@ The template has 4 main pages:
 - SASS
 - Bootstrap
 - Website is responsive for both Desktop and mobile.
-
-# Website Link:
-Enjoy:  
-https://ahmedmunir.github.io/Full-CSS-Project/index.html
